@@ -142,7 +142,7 @@ def train_ai():
         status_msg = f"PyTorchが kioku.txt（全{len(text_data)}文字）をインプットとして完全に学習しました！"
 
     except Exception as e:
-        status_msg = f"❌ AIの学習中にエラーが発生しました: {str(e)}"
+        status_msg = f"AIの学習中にエラーが発生しました: {str(e)}"
             
     return redirect(url_for("index"))
 
